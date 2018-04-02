@@ -811,8 +811,7 @@ body{
         transform:translateY(0)
     }
 }
-img,img.scale-with-grid,video{
-    max-width:100%;
+img,img.scale-with-grid,video{    
     height:auto
 }
 .logo-row{
@@ -3310,14 +3309,14 @@ header.affix .logo{
     transition:all .4s ease 0s
 }
 .logo-img{
-    height:42px
+    width: 266px;
 }
 .logo-2{
     display:block;
     padding:33px 0 25px
 }
 .header.no-transparent .logo-2{
-    padding:26px 0 25px
+    padding:26px 0 18px
 }
 .breadcrumb{
     background:0 0;
